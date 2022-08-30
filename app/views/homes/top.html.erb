@@ -1,0 +1,18 @@
+
+
+<div class="container"> 
+<%= render 'layouts/flash',layouts: @layouts %>
+<div class="mx-auto col-11 col-sm-10 col-lg-8 col-xl-6"><!-- この行を追加 -->
+<p></p>
+<h1 class="text-center">welcome to <i class="fas fa-book"></i>Bookers !!</h1>
+<p></p>
+<p>In <i class="fas fa-book"></i>Bookers,</p>
+<p></p>
+<p>you can share and exchange your opinions , inpressions , <div>
+and emotions</p>
+<p></p>
+<p>about various books!</p>
+
+<p class="text-center"><%= link_to "Log in",user_session_path, class: "btn-sm btn-info"%></p>
+<p class="text-center"><%= link_to "Sign up",new_user_registration_path,class: "btn-sm btn-success"%></p>
+</div>
